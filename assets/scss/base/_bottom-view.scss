@@ -1,0 +1,36 @@
+.line {
+    display: block;
+    width: 100%;
+    max-width: 1168px;
+    height: 2px;
+    background: #111111;
+    margin-top: 144px;
+}
+.page-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    .bottom-collumn {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        .first-row {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 32px;
+            color: #333333; 
+            margin-left: 15px;
+        }
+        .second-row {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            color: rgba(51, 51, 51, 0.5);
+            margin-left: 15px;
+        }
+    }
+}

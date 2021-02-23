@@ -1,0 +1,72 @@
+.container1{
+    width: 100%;
+    max-width: 1168px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.main-view {
+    display: flex;
+    padding-top: 64px;
+    width: 100%;
+    .main-view-left .conference{
+        font-family: Space Grotesk;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #EB5A43; 
+    }
+    .main-heading {
+        font-family: Space Grotesk;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 80px;
+        letter-spacing: -2px;
+        color: #333333
+    }
+    .main-view-left p {
+        font-family: Space Grotesk;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: #333333;
+    }
+    .buy-button2 {
+        color: #FFFFFF;
+        border: solid 2px #F5F5F5;
+        padding: 10px 26px 10px;
+        display: inline-block;
+        text-decoration: none;
+        transition: all ease 0.3s;
+        font-family: Space Grotesk;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        background: #EB5A43;
+        border-radius: 7px;
+    }
+    .buy-button2:hover {
+        background-color: #ffffff;
+        color: #111111;
+    }
+    .main-image {
+        width: 100%;
+    }
+   
+}
+@media (max-width: 960px ) {
+    .main-view {
+        padding-top: 20px;
+        .main-view-left {
+            display: none;
+            padding-top: 20px;
+        }
+    }
+}

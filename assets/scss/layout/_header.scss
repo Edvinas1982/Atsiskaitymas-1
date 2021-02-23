@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-left {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        .logo-text{
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 48px;
+            color: #333333; 
+            width: 33%
+        }
+        nav a {
+            margin-top: 1px;
+            color: #333333;
+            display: inline-block;
+            text-decoration: none;
+            padding: 0 13px;
+            text-transform: capitalize;
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+            opacity: 0.8;
+        
+            transition: all ease 0.3s;
+        }
+    }
+
+}
+.buy-button1 {
+    color: #111111;
+    border: solid 2px #F5F5F5;
+    padding: 10px 26px 10px;
+    display: inline-block;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.buy-button1:hover {
+    background-color: #EB5A43;
+    color: #ffffff;
+}
+@media (max-width: 960px ) {
+    .buy-button1 {
+        display: none;
+    }
+}
+@media (max-width: 960px ) {
+    .header-left nav {
+        display: none;
+    }
+}
+@media (min-width: 960px ) {
+    .menu-image {
+        display: none;
+    }
+}
